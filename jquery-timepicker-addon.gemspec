@@ -7,9 +7,9 @@ require "jquery-timepicker-addon/version"
 Gem::Specification.new do |s|
   s.name        = "jquery-timepicker-addon"
   s.version     = JqueryTimepickerAddon::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
+  s.authors     = "Andreas Woerle"
+  s.email       = "andi@devolute.org"
+  s.homepage    = "http://devolute.org"
   s.summary     = "TODO: Summary of JqueryTimepickerAddon."
   s.description = "TODO: Description of JqueryTimepickerAddon."
 
