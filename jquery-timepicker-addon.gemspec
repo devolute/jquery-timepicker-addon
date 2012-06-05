@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = "Andreas Woerle"
   s.email       = "andi@devolute.org"
   s.homepage    = "http://devolute.org"
-  s.summary     = "TODO: Summary of JqueryTimepickerAddon."
-  s.description = "TODO: Description of JqueryTimepickerAddon."
+  s.summary     = "Simple rails engine providing the jquery-timepicker-addon, written by Trent Richardson"
+  s.description = "Simple rails engine providing the jquery-timepicker-addon, written by Trent Richardson"
 
   s.add_dependency "rails", "~> 3.2.3"
 
