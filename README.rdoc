@@ -1,0 +1,21 @@
+= JqueryTimepickerAddon
+
+Rails Engine providing the jquery-timepicker-addon.
+See http://trentrichardson.com/examples/timepicker/ for details.
+
+Usage:
+
+in your js manifest (application.js):
+
+// Jquery timepicker Addon
+//= require jquery-timepicker-addon
+
+// Some (for now) very simple ujs code to initialize the timepicker (with default options) for every element with class 'datetimeselect'
+//= require datetimeselect.ujs.js
+
+= Todo
+
+* allow to specify options via data-attributes, and extend accordingly
+* maybe also provide some necessary default styles
+
+

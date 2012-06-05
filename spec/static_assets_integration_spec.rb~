@@ -1,0 +1,13 @@
+require 'spec_helper'
+
+describe "static assets integration", :type => :request do
+  it "it should provide the jquery-timepicker-js on the asset pipeline" do
+    visit '/assets/jquery-timepicker-addon.js'
+    page.text.must_include '* jQuery timepicker addon'
+  end
+
+  it "it should provide the datetimeselect.ujs.js on the asset pipeline" do
+    visit '/assets/datetimeselect.ujs.js'
+    page.text.must_include "$('.datetimeselect').datetimepicker"
+  end
+end
